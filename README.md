@@ -10,7 +10,7 @@
 > [!WARNING]
 > RustioGraph is currently in an early testing stage and may contain bugs or unexpected behavior.
 >
-> If you encounter a bug, unexpected behavior, or another issue, please open an [issue](../../issues) and provide enough information to reproduce the problem.
+> If you encounter a bug, unexpected behavior, or another issue, please open an [issue](https://github.com/kageiro/rustiograph/issues) and provide enough information to reproduce the problem.
 
 
 A Rust library for interacting with the Telegra.ph API. RustioGraph provides a simple, high-level interface for managing accounts and pages, automating publications, and working with Telegra.ph content, while also exposing a low-level API for custom requests and access to newly introduced API methods that may not yet be supported by the library.

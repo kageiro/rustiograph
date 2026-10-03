@@ -3,6 +3,8 @@ name = "rustiograph"
 version = "0.0.1"
 edition = "2024"
 authors = ["Kageiro github.com/kageiro"]
+repository = "https://github.com/kageiro/rustiograph/issues"
+keywords = ["api", "telegraph", "telegram", "wrapper", "client"]
 readme = "README.md"
 description = "Telegra.ph API wrapper written in Rust"
 
