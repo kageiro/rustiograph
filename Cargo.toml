@@ -1,0 +1,39 @@
+[package]
+name = "rustiograph"
+version = "0.0.1"
+edition = "2024"
+authors = ["Kageiro github.com/kageiro"]
+readme = "README.md"
+description = "Telegra.ph API wrapper written in Rust"
+
+
+[dependencies]
+
+# Async Runtime
+tokio = { version = "1", features = ["full"] }
+
+# HTML Parsing and processing
+html-escape = { version = "0.2.15" }
+tl = { version = "0.7.8" }
+
+# Global and Static data
+once_cell = { version = "1.21.4" }
+
+# Text processing
+regex = { version = "1.13.1" }
+
+# Serialization
+serde = { version = "1.0.229", features = ["derive", "rc"] }
+serde_json = { version = "1.0.151" }
+
+# Error handling
+thiserror = { version = "1" }
+
+# HTTP and Networking
+url = { version = "2" }
+mime_guess = { version = "2"}
+reqwest = { version = "0.12", features = ["json", "multipart", "socks"] }
+
+[features]
+hide-token = []
+upload = []
